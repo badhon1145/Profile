@@ -4,9 +4,9 @@
 }
 
 body {
-  color:white;
+  color: #2b2c48;
   font-family: "Jost", sans-serif;
-  background-image:url("https://i.ibb.co/SJFDx0m/Badhon-Photography-20230301-164106-lmc-8-4.jpg");
+  background-image: transparent;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -24,6 +24,7 @@ body {
   position: relative;
   z-index: 1;
   overflow-x: hidden;
+  background-color: white;
   display: flex;
   transition: 0.3s;
   flex-direction: column;
@@ -32,7 +33,7 @@ body {
 }
 
 .card[data-state="#about"] {
-  height: 470px;
+  height: 450px;
 }
 .card[data-state="#about"] .card-main {
   padding-top: 0;
@@ -271,7 +272,7 @@ body {
   left: 42px;
   width: 2px;
   top: 0;
-  height: 100%;
+  height: 70%;
   position: absolute;
   content: "";
 }
