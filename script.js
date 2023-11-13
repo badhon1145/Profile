@@ -18,3 +18,15 @@ const handleButtonClick = e => {
 buttons.forEach(btn => {
   btn.addEventListener("click", handleButtonClick);
 });
+
+document.addEventListener('keydown', function (e) {
+            if (e.key === 'ScrollLock') {
+                document.body.style.overflow = 'hidden';
+            }
+        });
+
+        document.addEventListener('keyup', function (e) {
+            if (e.key === 'ScrollLock') {
+                document.body.style.overflow = 'auto';
+            }
+        });
