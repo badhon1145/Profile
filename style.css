@@ -24,8 +24,7 @@ body {
   position: relative;
   z-index: 1;
   overflow-x: hidden;
-   background-image:url("https://i.ibb.co/SJFDx0m/Badhon-Photography-20230301-164106-lmc-8-4.jpg");
-  background-repeat: no-repeat;  display: flex;
+  display: flex;
   transition: 0.3s;
   flex-direction: column;
   border-radius: 10px;
